@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Is very useful because usually the difference between two files are the bugs but not always all difference are bugs so is a bit difficult to know what the bug is even though there is tools like diff.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Is so useful because we do mistakes all the time so is very easy to go to old versions and compare them like we did before.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Is so much better to manually choosing when to commit because in one hour you can do almost nothing or you can change almost the entire program.
+s
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because is much more likely that two files are highly relationated when programming than in anything else.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    It is very easy, first with git log you can see the whole history of comits which you can identify with a comment, that is why it is very important to do a comment every time you comit. Then with git diff yout type the id of the first committee (the previous one) and then the id of the second one (the new one) by copying them, and then you can see the difference even with color, red for the lines substracted and green to the lines added.   
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It makes me feel so confident because I can always go back to previous versions of the work until I find the first version when the bug occurred and then I can find very easily the bug with diff.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to start programming control ASAP
+
+git diff -> Compare two commits
+git clone -> Make a copy of an entire Git repository including all commits in my own computer
+git log -> Shows all the commits in a repository starting with the most recent
+git checkout-> Temporarily reset all files in a repository to their state at the time of a specific commit
