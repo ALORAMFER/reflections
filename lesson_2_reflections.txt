@@ -5,18 +5,29 @@ What happens is that it displays a message which says "Initialized empty Git rep
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-The staging area is different from the working directory because it only contains the files I want to track with git, while the working directory contains all the files, eventhough I don't want to track them. THe satging area is different from the repository, because a repository contains the commits, while the satging area only contains the files I want to commit.   
+The staging area is different from the working directory because it only contains the files I want to track with git, while the working directory contains all the files, eventhough I don't want to track them. The satging area is different from the repository, because a repository contains the commits, while the satging area only contains the files I want to commit.   
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Before I commit I can use git diff --staged to see the difference between the last changes I made to the file and the last commit. 
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+
+Well when you want to make an unofficially change to the file, so that you can have 2 files working at the same time.
+
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+The diagrams shows how the branches are structured
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is just the master branch, and we represent it in the diagram as just one branch now becuase they are just one branch now
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Automatic merging is much faster, nevertheless it can always end with a conflict so you need to be carefull. 
